@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #17202a;
+    background: #f4f7f8;
+    line-height: 1.6;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.hero {
+    min-height: 92vh;
+    color: white;
+    background:
+        linear-gradient(115deg, rgba(5, 23, 37, .97), rgba(8, 66, 87, .78)),
+        radial-gradient(circle at 80% 20%, rgba(74, 202, 213, .35), transparent 35%);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    border: 1px solid rgba(255,255,255,.15);
+    border-radius: 50%;
+    right: -120px;
+    bottom: -220px;
+}
+
+.nav {
+    width: min(1120px, 90%);
+    margin: auto;
+    padding: 28px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.logo {
+    font-weight: 900;
+    letter-spacing: 4px;
+    font-size: 1.25rem;
+}
+
+.links {
+    display: flex;
+    gap: 28px;
+    font-size: .95rem;
+    color: #d9edf2;
+}
+
+.links a:hover {
+    color: white;
+}
+
+.hero-content {
+    width: min(1120px, 90%);
+    margin: 0 auto;
+    padding: 15vh 0 12vh;
+    position: relative;
+    z-index: 2;
+}
+
+.eyebrow {
+    color: #63d5df;
+    font-size: .78rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: clamp(3rem, 8vw, 6.8rem);
+    line-height: .95;
+    letter-spacing: -4px;
+    margin-bottom: 28px;
+}
+
+h1 span {
+    color: #63d5df;
+}
+
+.hero-text {
+    max-width: 590px;
+    color: #d8e7eb;
+    font-size: 1.1rem;
+    margin-bottom: 34px;
+}
+
+.button {
+    display: inline-block;
+    background: #63d5df;
+    color: #08212c;
+    padding: 13px 23px;
+    border-radius: 4px;
+    font-weight: 800;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+}
+
+.section {
+    width: min(1120px, 90%);
+    margin: auto;
+    padding: 100px 0;
+}
+
+.section-heading {
+    max-width: 720px;
+    margin-bottom: 48px;
+}
+
+.section-heading h2 {
+    font-size: clamp(2.1rem, 5vw, 3.5rem);
+    line-height: 1.05;
+    margin-bottom: 18px;
+}
+
+.section-heading > p:last-child {
+    color: #61717a;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border: 1px solid #dce5e8;
+    padding: 32px;
+    min-height: 260px;
+}
+
+.number {
+    color: #188898;
+    font-weight: 900;
+    margin-bottom: 35px;
+}
+
+.card h3, .equipment h3, .tip h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.card p, .equipment p, .tip p {
+    color: #63727a;
+}
+
+.dark-section {
+    background: #092b39;
+    color: white;
+    padding: 100px max(5%, calc((100% - 1120px) / 2));
+}
+
+.dark-section .section-heading > p:last-child {
+    color: #bad0d6;
+}
+
+.equipment-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.equipment {
+    border: 1px solid rgba(255,255,255,.15);
+    padding: 32px;
+    min-height: 250px;
+}
+
+.equipment span {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 28px;
+}
+
+.equipment p {
+    color: #bad0d6;
+}
+
+.tips {
+    border-top: 1px solid #dce5e8;
+}
+
+.tip {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    gap: 25px;
+    padding: 28px 0;
+    border-bottom: 1px solid #dce5e8;
+}
+
+.tip strong {
+    color: #188898;
+}
+
+.quote-section {
+    text-align: center;
+    padding: 110px 5%;
+    background: #dceff1;
+}
+
+blockquote {
+    max-width: 800px;
+    margin: auto;
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    font-weight: 800;
+    line-height: 1.15;
+}
+
+.quote-section p {
+    margin-top: 22px;
+    color: #60727a;
+}
+
+footer {
+    width: min(1120px, 90%);
+    margin: auto;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    color: #64737a;
+    font-size: .9rem;
+}
+
+footer strong {
+    color: #17202a;
+}
+
+@media (max-width: 760px) {
+    .links {
+        display: none;
+    }
+
+    .hero-content {
+        padding-top: 12vh;
+    }
+
+    h1 {
+        letter-spacing: -2px;
+    }
+
+    .cards,
+    .equipment-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section,
+    .dark-section {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
