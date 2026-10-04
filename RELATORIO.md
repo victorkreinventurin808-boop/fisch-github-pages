@@ -48,7 +48,7 @@ O endereço publicado foi:
 ## 6. Problemas encontrados
 
 Página do Git Hub pages com erro 404
-Dei um F5 e atualizando a pagina o site foi publicado
+mas dando um F5 e atualizando a pagina o site foi publicado
 
 ## 7. O que aprendi
 
