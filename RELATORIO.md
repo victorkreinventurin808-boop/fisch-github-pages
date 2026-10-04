@@ -1,7 +1,5 @@
 # Relatório de Aprendizagem — GitHub Pages
 
-> **Importante:** este relatório é um modelo. Complete os trechos entre colchetes depois de realizar os passos no seu computador e no GitHub, principalmente os erros que realmente aconteceram e os seus commits.
-
 ## 1. Tema escolhido
 
 Escolhi desenvolver uma página sobre **Fisch**, um jogo de pesca que conheço e tenho interesse. A proposta foi criar um pequeno guia para iniciantes, apresentando progressão, equipamentos e dicas de pesca.
