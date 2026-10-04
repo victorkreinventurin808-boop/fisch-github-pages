@@ -62,4 +62,4 @@ O resultado foi uma página estática feita com HTML e CSS e publicada pelo GitH
 
 
 - Repositório: `[COLE AQUI O LINK DO REPOSITÓRIO]`
-- Site: `[COLE AQUI O LINK DO GITHUB PAGES]`
+- Site:  https://victorkreinventurin808-boop.github.io/fisch-github-pages/
