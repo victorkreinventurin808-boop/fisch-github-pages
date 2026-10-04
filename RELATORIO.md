@@ -31,14 +31,6 @@ git remote add origin URL_DO_REPOSITORIO
 git push -u origin main
 ```
 
-### Meus commits
-
-Substitua esta parte pelos commits que você realmente fez:
-
-- `[data]` — cria estrutura inicial do site
-- `[data]` — adiciona estilos da página
-- `[data]` — ajusta conteúdo e responsividade
-
 ## 5. Publicação no GitHub Pages
 
 Depois de enviar os arquivos para o repositório público, acessei as configurações do repositório e ativei o GitHub Pages.
@@ -55,11 +47,8 @@ O endereço publicado foi:
 
 ## 6. Problemas encontrados
 
-Descreva aqui os problemas que realmente aconteceram durante sua execução. Por exemplo:
-
-- `[problema que aconteceu]`
-- `[como descobri a solução]`
-- `[o que aprendi com o erro]`
+Página do Git Hub pages com erro 404
+Dei um F5 e atualizando a pagina o site foi publicado
 
 ## 7. O que aprendi
 
@@ -71,7 +60,6 @@ Além disso, aprendi que o GitHub Pages pode transformar um repositório com uma
 
 O resultado foi uma página estática feita com HTML e CSS e publicada pelo GitHub Pages. O processo ajudou a entender, na prática, como um projeto web pode ser desenvolvido, versionado e disponibilizado na internet.
 
-## 9. Links
 
 - Repositório: `[COLE AQUI O LINK DO REPOSITÓRIO]`
 - Site: `[COLE AQUI O LINK DO GITHUB PAGES]`
