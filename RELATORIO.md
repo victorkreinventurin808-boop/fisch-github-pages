@@ -43,7 +43,7 @@ Configuração utilizada:
 
 O endereço publicado foi:
 
-`[COLE AQUI O LINK DO SEU GITHUB PAGES]`
+ https://victorkreinventurin808-boop.github.io/fisch-github-pages/`
 
 ## 6. Problemas encontrados
 
