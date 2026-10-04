@@ -28,4 +28,4 @@ O site deve ser publicado pelo GitHub Pages usando a branch `main` e a pasta `/ 
 
 Depois de ativado, o endereço normalmente segue o formato:
 
-`https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/`
+https://victorkreinventurin808-boop.github.io/fisch-github-pages/
