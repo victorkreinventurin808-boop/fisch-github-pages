@@ -61,5 +61,5 @@ Além disso, aprendi que o GitHub Pages pode transformar um repositório com uma
 O resultado foi uma página estática feita com HTML e CSS e publicada pelo GitHub Pages. O processo ajudou a entender, na prática, como um projeto web pode ser desenvolvido, versionado e disponibilizado na internet.
 
 
-- Repositório: `[COLE AQUI O LINK DO REPOSITÓRIO]`
+- Repositório: https://github.com/victorkreinventurin808-boop/fisch-github-pages
 - Site:  https://victorkreinventurin808-boop.github.io/fisch-github-pages/
